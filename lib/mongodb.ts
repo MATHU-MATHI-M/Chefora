@@ -2,7 +2,7 @@
 import { MongoClient, type Db, MongoClientOptions } from "mongodb";
 
 const MONGODB_URI =
-  process.env.MONGODB_URI || "mongodb+srv://foodrecipe:foodrecipe@chefora.ira8gvx.mongodb.net/";
+  process.env.MONGODB_URI || "mongodb+srv://foodrecipe:foodrecipe@chefora.ira8gvx.mongodb.net/?retryWrites=true&w=majority&appName=chefora";
 
 // For Atlas, you should NOT allow invalid certificates!
 const MONGODB_OPTIONS: MongoClientOptions = {
