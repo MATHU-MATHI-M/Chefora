@@ -263,7 +263,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Chefora. All rights reserved. Made with ❤️ for food lovers.</p>
+            <p>&copy; 2024 Chefora. All rights reserved. Made with Love for food lovers.</p>
           </div>
         </div>
       </footer>
